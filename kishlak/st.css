@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+ 
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/backkk.jpg)   ;
+ 
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+color: #fff;
+padding-left: 110px;
+text-indent: 20px;
+line-height: 23px;
+padding-right:90px ;
+ }
+
+.song {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.song img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+h1 {
+  
+  width: 30vw;
+  color: #fffcfc;
+  text-align: center;
+ }
+ @keyframes myAnim {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 1000px;
+  }
+ }
+ h1 {
+  animation: myAnim 6s linear alternate infinite;
+ }
